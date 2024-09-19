@@ -1,0 +1,84 @@
+.ticket-card {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width:400px;
+  height:150px;
+}
+.card-header {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.id {
+  flex: 1;
+
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 350px;
+}
+
+.availability-indicator {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4caf50; /* Green for available */
+}.title-status {
+  display: inline-block; /* Ensures the container is inline-block */
+}
+
+.title {
+  display: inline-block;
+  vertical-align: middle; /* Align with .status-tag */
+}
+
+.status-tag {
+  display: inline-block;
+  vertical-align: middle; /* Align with .title */
+  margin-left: 5px; /* Space between title and status tag */
+}
+
+.status-tag img {
+  width: 15px;
+  vertical-align: middle; /* Align image with text in .title */
+}
+
+.priority-tag {
+  display: inline-block; /* Ensure priority-tag is inline-block */
+}
+
+.priority {
+  display: inline-block;
+  vertical-align: middle; /* Align with tags if necessary */
+}
+
+.priority img {
+  width: 15px;
+}
+
+.tag {
+  background-color: #eee;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-left: 5px; /* Space between multiple tags */
+  display: inline-block; /* Ensure tags are inline */
+  vertical-align: middle; /* Align with priority if necessary */
+}

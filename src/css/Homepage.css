@@ -1,0 +1,49 @@
+.cards-container {
+  overflow-x: auto;
+}
+
+.group-section {
+  display: flex;
+  flex-wrap: nowrap;  /* Prevents wrapping, forces horizontal scrolling */
+  overflow-x: auto;   /* Enables horizontal scrolling */
+  padding: 10px;
+  gap: 150px;          /* Optional: Adds space between groups */
+}
+
+.group {
+  min-width: 300px;   /* Adjust as needed to fit your content */
+  margin-right: 10px; /* Space between groups */
+  background-color: #f9f9f9; /* Optional: Background color */
+  border-radius: 8px; /* Optional: Rounded corners for groups */
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+  .group-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  .group-icon {
+    width: 25px;
+    height: 50px;
+    border-radius: 50%;
+  } 
+  .cards {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+  }
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 350px;
+}
